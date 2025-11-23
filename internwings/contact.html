@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>internwings</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- wahtsapp -->
+    <div class="query">
+      <a
+        href="https://api.whatsapp.com/send/?phone=9162320303&text&type=phone_number&app_absent=0"
+      >
+        <h3><i class="fa-brands fa-whatsapp"></i></h3>
+      </a>
+    </div>
+    <!-- ........................................... -->
+
+    <div class="logo">
+      <li>
+        <a href="index.html"
+          ><img src="img/logo1-removebg-preview.png" alt=""
+        /></a>
+      </li>
+      <li>
+        <a href="index.html">
+          <h3>INTERN WINGS</h3>
+        </a>
+      </li>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo1">Intern Wings</label>
+      <ul>
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="#internship">INTERNSHIP</a></li>
+        <li><a href="verification.html">VERIFICATION</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="apply.html">APPLY</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="content">
+        <h1 style="text-align: center;">Contact US</h1>
+        <div class="info">
+          <form id="form">  
+            <div id="res"></div>
+            <label>Name :</label>
+            <input type="text" name="Name" placeholder="Enter your name" />
+            <label>Email :</label>
+            <input type="text" name="Email" placeholder="Enter your email" />
+            <label>Phone :</label>
+            <input type="text" name="Mobile" placeholder="Enter your phone" />
+            <label>Message :</label>
+            <input type="text" name="Message" class="message" placeholder="Write Message..." />
+            <button name="btn" class="submit">Submit</button>
+          </form>
+        </div>
+        <div class="image"></div>
+      </div>
+    </div>
+
+    <!-- footer area -->
+
+    <footer>
+      <div id="lastfooter" class="usefullist">
+        <div class="implinks">
+          <h2>Follow Us</h2>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li>
+            <a href="https://www.linkedin.com/company/intern-wings/"
+              >LinkedIn</a
+            >
+          </li>
+        </div>
+
+        <div class="legal">
+          <h2>Legal Link</h2>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li>
+            <a href="https://www.linkedin.com/company/intern-wings/"
+              >Rules & Regulation</a
+            >
+          </li>
+        </div>
+        <!-- <div class="contact">
+                <h2>Contact Us</h2>
+                <li><a href="internwing@gmail.com">internwing@gmail.com</a></li>
+            </div> -->
+        <div class="address">
+          <h2>Address</h2>
+          <p class="addpara">Bakshi Ka Talab</p>
+          <p>Sitapur Road, Lucknow</p>
+          <p>Uttar Pradesh</p>
+          <p>India (226201)</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Intern Wings. All Rights Reserved 2023.</p>
+      </div>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+    <!-- <script src="scripct.js"></script> -->
+  </body>
+  <!-- for transfer data -->
+  <script>
+    let url = 'https://script.google.com/macros/s/AKfycbx_g34CYBEBkeFlfKAIxbfuSXziKttZQtSv1b-kVX8emCObZ3EvgOTC5xC2Ny4uMbC5/exec'
+    let form = document.querySelector('#form');
+    form.addEventListener("submit", (f) => {
+        f.target.btn.innerHTML = "Submitting....";
+        let d = new FormData(form);
+        fetch(url, {
+            method: "POST",
+            body: d
+        }).then((res) => res.text())
+            .then((finalRes) => {
+                f.target.btn.innerHTML = "Submit"
+                document.getElementById("res").innerHTML = 'Message Sent Successfully';
+                form.reset();
+                setTimeout(() => {
+                    document.getElementById("res").innerHTML = 'Thank you';
+                }, 5000)
+                console.log(finalRes)
+            })
+        f.preventDefault();
+    })
+</script>
+</html>

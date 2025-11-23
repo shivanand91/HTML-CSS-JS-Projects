@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainContainer{
+
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 33%;
+    margin-right: 20%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: .1px .1px 5px .1px #959494;
+    background-image: linear-gradient(to right, rgb(94, 94, 9),rgb(161, 19, 19));
+}
+
+@media only screen and (max-width:903px) {
+    #mainContainer{
+
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 20%;
+    }
+    
+}
+
+.mainHeading{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.guessheading{
+
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(66, 247, 0);
+
+}
+
+label{
+
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 255, 225);
+}
+
+#guessField{
+
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    padding-left: 2px;
+    border: none;
+    border-radius: 2px;
+}
+
+#submitButton{
+
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    color: rgb(250, 252, 253);
+    text-shadow: .1px .1px 5px .1px #ececec;
+    border-radius: 25px;
+    background-color: rgb(253, 107, 3);
+}
+
+#submitButton:hover{
+    background-color: rgb(250, 252, 253);
+    color: rgb(253, 107, 3);
+}

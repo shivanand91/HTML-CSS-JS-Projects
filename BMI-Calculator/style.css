@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}
+.detailsArea{
+    width: 60vh;
+    height: wrap;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.mainHead{
+
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgb(3, 68, 68);
+    padding: 5px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+input{
+
+}
+
+.detailsBox{
+
+    margin-top: 2rem;
+}
+
+input{
+
+    width: 250px;
+    height: 1.3rem;
+    font-size: 1rem;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(3 68 68);
+}
+
+.height{
+
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.weight{
+    
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.calButton{
+
+    font-size: 2rem;
+    /* height: 40px; */
+    padding: 0.3rem;
+    width: 200px;
+    border-radius: 10px;
+    color: rgb(3 68 68);
+    background-color: rgb(249, 241, 4);
+}
+
+.calButton:hover{
+
+    color: rgb(249, 241, 4);
+    background-color: rgb(3 68 68);
+}
+
+#result{
+
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+.guideHead{
+
+    margin-top: 5px;
+    padding: 5px;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgb(4, 18, 46);
+}
+
+.under{
+
+    font-size: 1.5rem;
+    margin-top: 5px;
+}

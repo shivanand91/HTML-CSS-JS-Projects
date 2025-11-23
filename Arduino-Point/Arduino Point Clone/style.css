@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 60px;
+    background-color: #1E73BE;
+}
+
+.right-nav h1{
+
+    color: #fff;
+}
+
+.left-nav {
+
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.left-nav li{
+
+    list-style: none;
+}
+
+.left-nav li a{
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-nav li a:hover{
+
+    color: rgb(2, 47, 2);
+}
+
+.container{
+
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+    height: max-content;
+}
+
+.main-Section{
+
+    height: max-content;
+    width: 900px;
+}
+
+.content-container{
+        
+    display: flex;
+    gap: 21px;
+    margin-bottom: 20px;
+
+}
+
+.card{
+
+    height: max-content;
+    width: 400px;
+    text-align: center;
+}
+
+.card img{
+
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card a{
+    padding: 8px;
+    font-size: 22px;
+}
+
+.card p{
+    padding: 8px;
+    font-size: 18px;
+    text-align: left; 
+}
+
+.card button{
+
+    font-size: 20px;
+    color: #fff;
+    background-color: #1E73BE;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+.asideSection{
+
+    height: max-content;
+    width: 400px;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.asideSection input{
+
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.footerSection{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: #1E73BE;
+}
+
+.leftarea{
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.leftarea p{
+
+    font-size: 20px;
+    margin-top: 40px;
+    color: #fff;
+    width: 900px;
+}
+
+.rightarea {
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftarea h1{
+
+    color: #fff;
+}
+
+.rightarea h1{
+
+    color: #fff;
+}
+
+.rightarea li {
+        
+    list-style: none;
+
+}
+
+.rightarea li a{
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.rightarea li a:hover{
+
+    text-decoration: underline;
+    color: rgb(2, 27, 2);
+}
+
+.search-section{
+
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navBar">
+      <h1>Rock Paper Scissors</h1>
+      <a href="rule.html">Rule</a>
+    </nav>
+
+    <!-- Rock Paper Scissors Image -->
+
+    <div class="container">
+      <div class="box" id="Rock">
+        <img src="images/rock.png" alt="Rock" />
+      </div>
+
+      <div class="box" id="Paper">
+        <img src="images/paper.png" alt="Paper" />
+      </div>
+
+      <div class="box" id="Scissors">
+        <img src="images/scissors.png" alt="Scissors" />
+      </div>
+    </div>
+
+    <!-- Score Board Section -->
+
+    <div class="scoreBoard">
+      <div class="userScore">
+        <p id="user">0</p>
+        <h3>You</h3>
+      </div>
+      <div class="compScore">
+        <p id="comp">0</p>
+        <h3>Computer</h3>
+      </div>
+    </div>
+    <div class="btnContainer">
+      <p id="resultBtn">Your Move!</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+
+.abh{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color: #ffff;
+    box-shadow: .05px .05px 5px .05px #cecece;
+    border-radius: 20px;
+    border: transparent;
+}
+.abh .abhi {
+    width: 100%;
+}
+.abhi img{
+    width: 100%;
+    height: 80vh;
+}
+
+.lines .lines-cont .cont{
+    font-size: 25px;
+}
+.lines-cont{
+    margin-top: 10%;
+}
+.name{
+    margin-top: 90px;
+}
+.name .name-1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #242424;
+}
+.icon{
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgb(29, 29, 139);
+    transition: 0.5 ese;
+}
+.icon i{
+    padding-right: 10px;
+}
+.icon i:hover{
+    color: red;
+    transform: scaleY(1.2);
+}
+.icon i:active{
+    transform: translateY(10px);
+    color: green;
+}
+@media (max-width: 1050px){
+.abh{
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    margin-top: 0px;
+    padding-top: 45px;
+    background-color: #ffff;
+    box-shadow: .05px .05px 5px .05px #cecece;
+    border-radius: 20px;
+    border: transparent;
+}
+.abh .abhi {
+    width: 100%;
+}
+.abhi img{
+    width: 87%;
+    height: 50vh;
+}
+.lines .lines-cont .cont{
+    font-size: 15px;
+    padding-left: 5px;
+}
+.lines-cont{
+    margin-top: 3%;
+}
+.name{
+    margin-top: 10px;
+    padding-left: 5px;
+    /* margin-left: 30%; */
+}
+.name .name-1{
+    font-size: 20px;
+    color: #242424;
+}
+.name .name-2{
+    font-size: 13px;
+}
+.icon{
+    /* margin-left: 30%; */
+    padding-top: 8px;
+    padding-left: 5px;
+    font-size: 25px;
+    color: rgb(29, 29, 139);
+    transition: 0.5 ese;
+}
+.icon i{
+    padding-right: 10px;
+}
+.icon i:hover{
+    color: red;
+    transform: scaleY(1.2);
+}
+.icon i:active{
+    transform: translateY(10px);
+    color: green;
+}
+}

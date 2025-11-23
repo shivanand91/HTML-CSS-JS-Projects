@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.searchsection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 20px 40px; */
+    padding: 60px 20px;
+    background-color: #efefef;
+    /* align-self: normal; */
+    cursor: pointer;
+}
+.searchsection .searchbar{
+    display: flex;
+    width: 60%;
+}
+.searchsection .searchbar input{
+    width: 100%;
+    font-size: 30px;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: aqua;
+}
+.searchsection .searchbar button{
+    padding: 20px;
+    font-size: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.tablecell{
+    display: none;
+   margin: 90px;
+   margin-top: 0px;
+    margin-bottom: 40px;
+
+    /* align-self: normal; */
+    align-items: center;
+    /* height: 50%; */
+    /* width: 100%; */
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    justify-content: center;
+}   
+
+.cell1{
+    
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: antiquewhite;
+    border-bottom: 2px solid black;
+}
+
+.cell2{
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+}
+
+.cell3{
+    
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: antiquewhite;
+    border-bottom: 2px solid black;
+}
+
+
+.cell4{
+    
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.cell5{
+    
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: antiquewhite;
+    border-bottom: 2px solid black;
+}
+
+
+.cell6{
+    
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-top: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+
+iframe{
+    margin-top: 50px;
+    width: 80%;
+    height: 100vh;
+    border: none;
+}
+@media (max-width:950){
+    iframe{
+    padding-top: 80px;
+    margin-top: 100px;
+    
+    }
+}

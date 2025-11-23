@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#e5e5fd;
+
+}
+
+.frame{
+    border: 10px solid black;
+    font-size: 15px;
+
+
+}
+.secondHeding {
+
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.aboutAbdulkalam{
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list{
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerArea{
+
+text-align: center;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+
+
+.moreDetails{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    }
+
+
+
+
+
+
+
+

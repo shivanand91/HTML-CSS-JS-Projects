@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoProX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="logo">GoProX</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#workshops">Workshops</a></li>
+            <li><a href="#mentors">Mentors</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-subtitle fade-in">Welcome to GoProX</span>
+            <h1 class="fade-in">Master Skills with 
+                <span class="text-gradient">Live Workshops</span>
+            </h1>
+            <div class="hero-features fade-in">
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Cybersecurity</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Trading</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-robot"></i>
+                    <span>AI Tools & Techniques</span>
+                </div>
+            </div>
+            <p class="hero-description fade-in">Join our expert-led live workshops and transform your career with cutting-edge skills</p>
+            <div class="hero-buttons">
+                <a href="#workshops" class="cta-button slide-in">
+                    <span>Explore Workshops</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a class="secondary-button slide-in">
+                    <i class="fas fa-play"></i>
+                    <span>Watch Demo</span>
+                </a>
+            </div>
+            <div class="hero-stats fade-in">
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Students Trained</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Expert Mentors</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Satisfaction Rate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops" class="workshops">
+        <h2>Upcoming Workshops</h2>
+        <div class="workshop-grid">
+            <div class="workshop-card">
+                <div class="workshop-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Cybersecurity Workshop">
+                    <div class="workshop-overlay">
+                        <span class="workshop-tag">Limited Seats</span>
+                        <div class="workshop-actions">
+                            <button class="workshop-btn"><i class="fas fa-calendar"></i> Add to Calendar</button>
+                            <button class="workshop-btn"><i class="fas fa-share-alt"></i> Share</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="workshop-content">
+                    <h3>Cybersecurity Fundamentals</h3>
+                    <div class="workshop-meta">
+                        <span class="workshop-date"><i class="far fa-calendar"></i> March 15, 2024</span>
+                        <span class="workshop-time"><i class="far fa-clock"></i> 10:00 AM - 2:00 PM</span>
+                    </div>
+                    <p>Learn essential cybersecurity concepts and best practices from industry experts. Perfect for beginners and professionals looking to enhance their security knowledge.</p>
+                    <div class="workshop-features">
+                        <span><i class="fas fa-certificate"></i> Certificate Included</span>
+                        <span><i class="fas fa-users"></i> Max 30 Participants</span>
+                        <span><i class="fas fa-video"></i> Live Session</span>
+                        <span><i class="fas fa-clock"></i> 3 Hours Duration</span>
+                    </div>
+                    <div class="workshop-footer">
+                        <div class="workshop-price">
+                            <span class="price">₹9</span>
+                            <span class="original-price">₹1,999</span>
+                        </div>
+                        <a href="#register" class="register-btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="workshop-card">
+                <div class="workshop-image">
+                    <img src="https://via.placeholder.com/400x250" alt="Trading Workshop">
+                    <div class="workshop-overlay">
+                        <span class="workshop-tag">Popular</span>
+                        <div class="workshop-actions">
+                            <button class="workshop-btn"><i class="fas fa-calendar"></i> Add to Calendar</button>
+                            <button class="workshop-btn"><i class="fas fa-share-alt"></i> Share</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="workshop-content">
+                    <h3>Advanced Trading Strategies</h3>
+                    <div class="workshop-meta">
+                        <span class="workshop-date"><i class="far fa-calendar"></i> March 20, 2024</span>
+                        <span class="workshop-time"><i class="far fa-clock"></i> 2:00 PM - 6:00 PM</span>
+                    </div>
+                    <p>Master technical analysis and trading strategies for financial markets. Learn from experienced traders and get hands-on practice with real market data.</p>
+                    <div class="workshop-features">
+                        <span><i class="fas fa-certificate"></i> Certificate Included</span>
+                        <span><i class="fas fa-users"></i> Max 25 Participants</span>
+                        <span><i class="fas fa-video"></i> Live Session</span>
+                        <span><i class="fas fa-clock"></i> 3 Hours Duration</span>
+                    </div>
+                    <div class="workshop-footer">
+                        <div class="workshop-price">
+                            <span class="price">₹9</span>
+                            <span class="original-price">₹1,999</span>
+                        </div>
+                        <a href="#register" class="register-btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="workshop-card">
+                <div class="workshop-image">
+                    <img src="https://via.placeholder.com/400x250" alt="AI Workshop">
+                    <div class="workshop-overlay">
+                        <span class="workshop-tag">New</span>
+                        <div class="workshop-actions">
+                            <button class="workshop-btn"><i class="fas fa-calendar"></i> Add to Calendar</button>
+                            <button class="workshop-btn"><i class="fas fa-share-alt"></i> Share</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="workshop-content">
+                    <h3>AI Tools & Techniques</h3>
+                    <div class="workshop-meta">
+                        <span class="workshop-date"><i class="far fa-calendar"></i> March 25, 2024</span>
+                        <span class="workshop-time"><i class="far fa-clock"></i> 11:00 AM - 3:00 PM</span>
+                    </div>
+                    <p>Explore cutting-edge AI tools and practical implementation techniques. Get hands-on experience with the latest AI technologies and frameworks.</p>
+                    <div class="workshop-features">
+                        <span><i class="fas fa-certificate"></i> Certificate Included</span>
+                        <span><i class="fas fa-users"></i> Max 20 Participants</span>
+                        <span><i class="fas fa-video"></i> Live Session</span>
+                        <span><i class="fas fa-clock"></i> 3 Hours Duration</span>
+                    </div>
+                    <div class="workshop-footer">
+                        <div class="workshop-price">
+                            <span class="price">₹9</span>
+                            <span class="original-price">₹1,999</span>
+                        </div>
+                        <a href="#register" class="register-btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentors Section -->
+    <section id="mentors" class="mentors">
+        <h2>Our Expert Mentors</h2>
+        <div class="mentor-grid">
+            <div class="mentor-card">
+                <div class="mentor-image">
+                    <img src="https://via.placeholder.com/150" alt="Mentor 1">
+                    <div class="mentor-overlay">
+                        <a href="#" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <h3>John Smith</h3>
+                <p class="mentor-title">Cybersecurity Expert</p>
+                <div class="mentor-stats">
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                </div>
+                <div class="mentor-back">
+                    <p>Specialized in network security and ethical hacking. Former security consultant at top tech firms.</p>
+                    <div class="mentor-skills">
+                        <span>Network Security</span>
+                        <span>Ethical Hacking</span>
+                        <span>Risk Assessment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mentor-card">
+                <div class="mentor-image">
+                    <img src="https://via.placeholder.com/150" alt="Mentor 2">
+                    <div class="mentor-overlay">
+                        <a href="#" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <h3>Sarah Johnson</h3>
+                <p class="mentor-title">Trading Specialist</p>
+                <div class="mentor-stats">
+                    <div class="stat">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                </div>
+                <div class="mentor-back">
+                    <p>Expert in technical analysis and algorithmic trading. Former hedge fund analyst.</p>
+                    <div class="mentor-skills">
+                        <span>Technical Analysis</span>
+                        <span>Algorithmic Trading</span>
+                        <span>Risk Management</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mentor-card">
+                <div class="mentor-image">
+                    <img src="https://via.placeholder.com/150" alt="Mentor 3">
+                    <div class="mentor-overlay">
+                        <a href="#" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <h3>Michael Chen</h3>
+                <p class="mentor-title">AI Researcher</p>
+                <div class="mentor-stats">
+                    <div class="stat">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">400+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                </div>
+                <div class="mentor-back">
+                    <p>Pioneer in machine learning applications. Published researcher and AI consultant.</p>
+                    <div class="mentor-skills">
+                        <span>Machine Learning</span>
+                        <span>Deep Learning</span>
+                        <span>NLP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <h2>Find Us</h2>
+        <div class="contact-info">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Our Location</h3>
+                    <p>123 Workshop Street, Tech City, 123456</p>
+                </div>
+                <div class="contact-hover">
+                    <p>Visit us for an immersive learning experience</p>
+                    <button class="direction-btn">Get Directions</button>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Call Us</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="contact-hover">
+                    <p>Available 24/7 for your queries</p>
+                    <button class="call-btn">Call Now</button>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Email Us</h3>
+                    <p>info@skillmaster.com</p>
+                </div>
+                <div class="contact-hover">
+                    <p>Get a quick response within 24 hours</p>
+                    <button class="email-btn">Send Email</button>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Working Hours</h3>
+                    <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+                </div>
+                <div class="contact-hover">
+                    <p>Weekend workshops available on request</p>
+                    <button class="schedule-btn">Schedule Visit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="registration">
+        <h2>Register Now</h2>
+        <form id="registration-form" class="registration-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <select id="workshop-type" required>
+                    <option value="">Select Workshop</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                    <option value="trading">Trading</option>
+                    <option value="ai">AI Tools & Techniques</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Proceed to Payment</button>
+        </form>
+    </section>
+
+    <!-- Payment Modal -->
+    <div id="payment-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Complete Your Payment</h2>
+            <div class="timer">Complete payment in <span id="countdown">5:00</span></div>
+            <div class="payment-options">
+                <button class="payment-btn"><img src="https://via.placeholder.com/100" alt="Paytm"></button>
+                <button class="payment-btn"><img src="https://via.placeholder.com/100" alt="GPay"></button>
+                <button class="payment-btn"><img src="https://via.placeholder.com/100" alt="PhonePe"></button>
+            </div>
+            <div class="upi-info">
+                <p>UPI ID: goprox@upi</p>
+                <button class="copy-btn">Copy UPI ID</button>
+            </div>
+            <button class="confirm-btn">I have Paid</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">GoProX</h3>
+                <p>Empowering professionals with cutting-edge skills in Cybersecurity, Trading, and AI.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <li><a href="#mentors">Mentors</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                    <li><i class="fas fa-envelope"></i> info@skillmaster.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Workshop Street, Tech City</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SkillMaster. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
